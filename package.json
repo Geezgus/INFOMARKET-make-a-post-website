@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install && husky add .husky/pre-commit \"npx pretty-quick --staged\""
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
