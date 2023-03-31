@@ -10,10 +10,14 @@
 
     <title>Make A Post</title>
   </head>
-  <body id="start">
+  <body id="start" class="flex flex-col items-center bg-zinc-700 bg-chat-pattern">
     <header class="fixed flex w-full h-20 items-center justify-center bg-amber-600 isolate z-10">
       <a href="#start" id="logo" class="text-3xl font-light select-none whitespace-nowrap text-white">Make a Post</a>
     </header>
+
+    <main
+      class="flex flex-col items-center gap-3 min-h-screen w-full max-w-5xl p-4 pt-24 bg-zinc-200 relative isolate after:w-full after:h-full after:absolute after:left-0 after:top-0 after:bg-chat-pattern after:opacity-10 after:-z-10"
+    ></main>
 
     <button disabled class="w-16 h-16 rounded-full bg-amber-600 text-white fixed right-4 bottom-4">
       <i class="ph ph-plus text-2xl"></i>
